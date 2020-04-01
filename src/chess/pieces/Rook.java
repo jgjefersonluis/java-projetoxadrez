@@ -65,4 +65,10 @@ public class Rook extends ChessPiece {
 		return mat;
 	}
 
+	@Override
+	public int getMoveCount() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 }
