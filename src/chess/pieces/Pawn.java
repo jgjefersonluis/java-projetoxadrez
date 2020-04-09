@@ -2,6 +2,7 @@ package chess.pieces;
 
 import boardgame.Board;
 import boardgame.Piece;
+import boardgame.Position;
 import chess.ChessMatch;
 import chess.ChessPiece;
 import chess.Color;
@@ -91,6 +92,12 @@ public class Pawn extends ChessPiece {
 	@Override
 	public String toString() {
 		return "P";
+	}
+
+	@Override
+	public void add(Piece capturedPiece) {
+		// TODO Auto-generated method stub
+		
 	}
 	
 }

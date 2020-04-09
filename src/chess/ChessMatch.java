@@ -222,4 +222,9 @@ public class ChessMatch {
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+	public Piece getEnPassantVulnerable() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
