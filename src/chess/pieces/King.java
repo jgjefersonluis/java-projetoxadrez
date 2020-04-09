@@ -1,6 +1,7 @@
 package chess.pieces;
 
 import boardgame.Board;
+import boardgame.Piece;
 import boardgame.Position;
 import chess.ChessMatch;
 import chess.ChessPiece;
@@ -69,6 +70,12 @@ public class King extends ChessPiece {
 	public int getMoveCount() {
 		// TODO Auto-generated method stub
 		return 0;
+	}
+
+	@Override
+	public void add(Piece capturedPiece) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
